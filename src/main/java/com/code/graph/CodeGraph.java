@@ -25,7 +25,8 @@ public class CodeGraph
         System.out.println(status);
 
         // creates an input stream for the file to be parsed
-        FileInputStream in = new FileInputStream("/Users/Beto/Desktop/Factorial.java");//If you guys are going to make changes, comment this out and add your own file. before pushing make sure to leave this original one and comment the other out.!
+        // FileInputStream in = new FileInputStream("/Users/Beto/Desktop/Factorial.java");//If you guys are going to make changes, comment this out and add your own file. before pushing make sure to leave this original one and comment the other out.!
+         FileInputStream in = new FileInputStream("/Users/jmcorral2/Desktop/FractionalToBinary.java");//If you guys are going to make changes, comment this out and add your own file. before pushing make sure to leave this original one and comment the other out.!
         CompilationUnit cu;
         try {
             // parse the file
@@ -38,7 +39,7 @@ public class CodeGraph
         // System.out.println("Printing out contents of class");
         // System.out.println(cu.toString()); */
 
-        System.out.println("Visiting Methods in Factorial.java");
+        System.out.println("Visiting Methods in FractionalToBinary.java");
         new MethodVisitor().visit(cu, null);
 
     }
