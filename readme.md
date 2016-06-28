@@ -1,4 +1,5 @@
-# Code Graph Tool
+# CFG-GENERATOR
+[PersonalCopy]
 This project is a code graph tool in the making! The code graph tool will(hopefully) be able to take in a java source code file
 and create a CFG (Control Flow Graph).
 
@@ -51,5 +52,3 @@ If you checkout the sources and want to view the project in an IDE, it is best t
 mvn javacc:javacc
 ```
 
-## Credits
-This project is a team effort done by Hector Tejada, Daniel Seyffert, Erick Duarte, and Cristian Payan
